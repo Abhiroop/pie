@@ -1,4 +1,5 @@
 module Pie where
+
 data Term = Name String
           | Var  String
           | Func String [Term]
